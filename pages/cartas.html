@@ -20,29 +20,24 @@
         .carta {
             min-width: 100px;
             min-height: 200px;
-            width: 20vw;
-            height: 35vh;
-            position: relative;
+            width: 10vw;
+            height: 20vw;
+
+            text-align: justify;
 
             background: url("../resources/Illian.jpeg") center / cover;
-
             margin: 2%;
+            position: relative;
+
             border-radius: 25px;
             color: transparent;
             box-shadow: 5px 5px 30px white;
         }
 
-        /* .carta:hover {
+        .carta:hover {
             animation: girarCarta 5s forwards;
             border: 2px, solid orangered;
             box-shadow: 5px 5px 30px orange;
-        } */
-
-        .carta:focus {
-            outline: none;
-            /* Elimina el contorno por defecto */
-            animation: girarCarta 0.5s forwards;
-            /* Llama a la animación al hacer foco en el div */
         }
 
         @keyframes girarCarta {
@@ -57,19 +52,6 @@
                 transition: 1s;
                 color: whitesmoke;
             }
-
-            /* 0% {
-                transform: translateX(0);
-            }
-
-            50% {
-                transform: translateX(200px);
-                box-shadow: 5px 5px 30px red;
-            }
-
-            100% {
-                transform: translateX(0);
-            } */
         }
     </style>
 </head>
@@ -80,7 +62,7 @@
             <div class="carta">
                 <h3 class="mt-3 text-center">Illian</h3>
 
-                <p class="m-3 ">
+                <p class="m-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate magnam eveniet delectus sint
                     itaque aliquam ipsa repellendus repudiandae atque magni numquam quo autem nesciunt in deserunt unde,
                     esse est.
