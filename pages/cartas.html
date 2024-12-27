@@ -13,17 +13,17 @@
     <style>
         .contenedor-cartas {
             display: flex;
-            background-color: blue;
             justify-content: space-around;
+            flex-wrap: wrap;
         }
 
         .carta {
             min-width: 100px;
             min-height: 200px;
-            width: 10vw;
-            height: 20vw;
+            width: 15vw;
+            height: 30vw;
 
-            text-align: justify;
+            font-size: 70%;
 
             background: url("../resources/Illian.jpeg") center / cover;
             margin: 2%;
@@ -31,27 +31,30 @@
 
             border-radius: 25px;
             color: transparent;
-            box-shadow: 5px 5px 30px white;
+            box-shadow: 5px 5px 30px rgb(148, 148, 148);
+
+            transition: 1s;
+        }
+
+        .carta h3 {
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        .carta p {
+            margin: 10%;
+            text-align: justify;
         }
 
         .carta:hover {
-            animation: girarCarta 5s forwards;
+            background: url("../resources/icons8-fuego-unscreen.gif") center / cover;
+            color: red;
+
+            transform: perspective(90px) rotateY(180deg) scaleX(-1);
+            transition: 1.5s;
+
             border: 2px, solid orangered;
             box-shadow: 5px 5px 30px orange;
-        }
-
-        @keyframes girarCarta {
-            0% {
-                transition: 5s;
-            }
-
-            100% {
-                background-image: url("https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_820/v1547631503/content-items/002/721/489/Fire_sprites-original.gif?1547631503");
-
-                transform: perspective(90px) rotateY(180deg) scaleX(-1);
-                transition: 1s;
-                color: whitesmoke;
-            }
         }
     </style>
 </head>
@@ -60,12 +63,10 @@
     <main>
         <div class="contenedor-cartas">
             <div class="carta">
-                <h3 class="mt-3 text-center">Illian</h3>
+                <h3>Illian</h3>
 
-                <p class="m-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate magnam eveniet delectus sint
-                    itaque aliquam ipsa repellendus repudiandae atque magni numquam quo autem nesciunt in deserunt unde,
-                    esse est.
+                <p>
+                    Un ninja letal, su dominio de la espada y otras artes lo hacen alguien temible como enemigo.
                 </p>
             </div>
         </div>
