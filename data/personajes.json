@@ -7,6 +7,26 @@
     {
         "nombre": "Elvis",
         "descripcion": "Conocido por su velocidad de mente y pies, junto a su tecnología poco común, hacen de Elvis un as bajo la manga.",
-        "imagen": "url_de_imagen_elvis"
+        "imagen": "../resources/Elvis.jpeg"
+    },
+    {
+        "nombre": "Razuk",
+        "descripcion": "Conocido por grandes hazañas, es una figura a la cual intentarás no enfrentar, se dice que podría matar a un gorila de pecho plateado él solo, facilito ….",
+        "imagen": "../resources/Razuk.jpeg"
+    },
+    {
+        "nombre": "Alex",
+        "descripcion": "Descendiente de Merlín, es alguien que prefieres tener de frente, ya que es conocido por sus ilusiones y mañas, nunca sabrás si estás en la realidad a una simulación de esta. Jugará con la mente hostil como si fuera un div.",
+        "imagen": "../resources/Alex.jpeg"
+    },
+    {
+        "nombre": "Adrián",
+        "descripcion": "Es una persona simple, con gustos simples, pero cuando sabes que lo tienes como rival, impone como si de un tractor armado hasta los dientes se tratase.",
+        "imagen": "../resources/Adrián.jpeg"
+    },
+    {
+        "nombre": "Jeffrey",
+        "descripcion": "Líder natural con mucha astucia, grandes ideas, grandes conocimientos, un buen manejo en todo tipo de armas y provisto de tecnología avanzada y una voluntad arrolladora, sus compañeros lucharán sin piedad.",
+        "imagen": "../resources/Jeffrey.jpeg"
     }
 ]
