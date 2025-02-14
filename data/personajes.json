@@ -16,7 +16,7 @@
     },
     {
         "nombre": "Alex",
-        "descripcion": "Descendiente de Merlín, es alguien que prefieres tener de frente, ya que es conocido por sus ilusiones y mañas, nunca sabrás si estás en la realidad a una simulación de esta. Jugará con la mente hostil como si fuera un div.",
+        "descripcion": "Descendiente de Merlín, es alguien que prefieres tener de frente, ya que es conocido por sus ilusiones y mañas, nunca sabrás si estás en la realidad a una simulación de esta. Jugará con la mente hostil como si fuera un div. Su palabra estrella infunde el terror en sus adversarios al escucharla (Facto)",
         "imagen": "../resources/Alex.jpeg"
     },
     {
@@ -33,5 +33,10 @@
         "nombre": "Yeray",
         "descripcion": "El enigmático guerrero cuya armadura lleva las marcas del tiempo y los golpes recibidos, cada abolladura es un recuerdo de su resistencia y valentía. No es el típico caballero de brillante armadura; es más bien un lobo solitario que ha visto las sombras del mundo y ha aprendido a caminar entre ellas con sigilo y determinación.",
         "imagen": "../resources/Yeray.png"
+    },
+    {
+        "nombre": "Pablo",
+        "descripcion": "Solo soy un viejo con un pc.",
+        "imagen": "../resources/Pablo.webp"
     }
 ]
