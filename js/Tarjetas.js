@@ -5,7 +5,8 @@ export default async function Tarjetas(filtro = '') {
     return personajes
         .filter(personaje => personaje.nombre.toLowerCase().includes(filtro.toLowerCase()))
         .map(personaje => `
-                <div class="carta">
+                <div class="carta" style="
+    background: url(${personaje.imagen}) center / cover;">
                     <h3>${personaje.nombre}</h3>
                     <p>${personaje.descripcion}</p>
                 </div>
