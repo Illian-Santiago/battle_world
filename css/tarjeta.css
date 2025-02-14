@@ -10,7 +10,7 @@
     width: 15vw;
     height: 30vw;
 
-    font-size: 70%;
+    font-size: 90%;
 
     margin: 2%;
     position: relative;
@@ -20,6 +20,9 @@
     box-shadow: 5px 5px 30px rgb(148, 148, 148);
 
     transition: 1s;
+    overflow: auto;
+
+    scrollbar-width: none;
 }
 
 .carta h3 {

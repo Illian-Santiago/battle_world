@@ -28,5 +28,10 @@
         "nombre": "Jeffrey",
         "descripcion": "Líder natural con mucha astucia, grandes ideas, grandes conocimientos, un buen manejo en todo tipo de armas y provisto de tecnología avanzada y una voluntad arrolladora, sus compañeros lucharán sin piedad.",
         "imagen": "../resources/Jeffrey.jpeg"
+    },
+    {
+        "nombre": "Yeray",
+        "descripcion": "El enigmático guerrero cuya armadura lleva las marcas del tiempo y los golpes recibidos, cada abolladura es un recuerdo de su resistencia y valentía. No es el típico caballero de brillante armadura; es más bien un lobo solitario que ha visto las sombras del mundo y ha aprendido a caminar entre ellas con sigilo y determinación.",
+        "imagen": "../resources/Yeray.png"
     }
 ]

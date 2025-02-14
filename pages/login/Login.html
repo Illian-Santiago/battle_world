@@ -4,6 +4,7 @@
 <head>
     <title>Login</title>
     <link rel="shortcut icon" href="https://img.icons8.com/?size=64&id=119076&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -15,18 +16,13 @@
 </head>
 
 <body>
-    <header>
-    </header>
-
-    <main class="container">
-        <form action="/action_page.php">
+    <div class="centered-form">
+        <form action="http://localhost:5500/index.html">
             <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Correo electronico:</label>
                 <input type="email" class="form-control" id="email" placeholder="user@example.com" name="email">
             </div>
 
             <div class="mb-3">
-                <label for="pwd" class="form-label">Contraseña:</label>
                 <input type="password" class="form-control" id="pwd" placeholder="***********" name="pswd">
             </div>
 
@@ -35,12 +31,19 @@
                     <input class="form-check-input" type="checkbox" name="remember">Recuérdame
                 </label>
             </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
-        </form>
-    </main>
 
-    <footer>
-    </footer>
+            <button id="sesion" class="cssbuttons-io-button" type="submit">
+                Entrar
+                <div class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+            </button>
+        </form>
+    </div>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

@@ -1,68 +1,27 @@
-.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
+body {
+    background: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center / cover;
+    font-family: 'Roboto', sans-serif;
 }
 
-.dark-mode .border-top {
-    border-color: #444;
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
 }
 
-.dark-mode .text-body-secondary {
-    color: #bbbbbb !important;
-}
-
-.dark-mode .bg-light {
-    background-color: #333 !important;
-}
-
-img[alt="perfil"] {
-    height: 4vw;
-}
-
-footer div img, #btnModo img {
-    width: 50px;
-}
-
-#btnModo {
-    position: fixed;
-    bottom: 80px;
-    right: 5px;
-    background: none;
-    border: none;
-}
-
-.navImg {
-    width: 40px;
-    height: 40px;
-}
-
-#root {
-    width: 200vw;
-}
-
-#filtro {
+.centered-form form {
+    background-color: #00000069;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 10px 12px;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-    background-color: #e1ebee;
-    outline: none;
-    box-sizing: border-box;
-    transition: all 0.3s;
-}
-
-#filtro:focus {
-    scale: 1.1;
-    box-shadow: #c98116 0px 0px 10px;
-}
-
-html {
-    scrollbar-width: none;
+    max-width: 400px;
 }
 
 .cssbuttons-io-button {
-    background: #1900ff;
+    background: #9900ff;
     color: white;
     font-family: inherit;
     padding: 0.35em;
