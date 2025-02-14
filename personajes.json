@@ -2,46 +2,46 @@
     {
         "nombre": "Illian",
         "descripcion": "Un ninja letal, su dominio de la espada y otras artes lo hacen alguien temible como enemigo.",
-        "imagen": "../resources/Illian.jpeg"
+        "imagen": "../img/Illian.jpeg"
     },
     {
         "nombre": "Elvis",
         "descripcion": "Conocido por su velocidad de mente y pies, junto a su tecnología poco común, hacen de Elvis un as bajo la manga.",
-        "imagen": "../resources/Elvis.jpeg"
+        "imagen": "../img/Elvis.jpeg"
     },
     {
         "nombre": "Razuk",
         "descripcion": "Conocido por grandes hazañas, es una figura a la cual intentarás no enfrentar, se dice que podría matar a un gorila de pecho plateado él solo, facilito ….",
-        "imagen": "../resources/Razuk.jpeg"
+        "imagen": "../img/Razuk.jpeg"
     },
     {
         "nombre": "Alex",
         "descripcion": "Descendiente de Merlín, es alguien que prefieres tener de frente, ya que es conocido por sus ilusiones y mañas, nunca sabrás si estás en la realidad a una simulación de esta. Jugará con la mente hostil como si fuera un div. Su palabra estrella infunde el terror en sus adversarios al escucharla (Facto)",
-        "imagen": "../resources/Alex.jpeg"
+        "imagen": "../img/Alex.jpeg"
     },
     {
         "nombre": "Adrián",
         "descripcion": "Es una persona simple, con gustos simples, pero cuando sabes que lo tienes como rival, impone como si de un tractor armado hasta los dientes se tratase.",
-        "imagen": "../resources/Adrián.jpeg"
+        "imagen": "../img/Adrián.jpeg"
     },
     {
         "nombre": "Jeffrey",
         "descripcion": "Líder natural con mucha astucia, grandes ideas, grandes conocimientos, un buen manejo en todo tipo de armas y provisto de tecnología avanzada y una voluntad arrolladora, sus compañeros lucharán sin piedad.",
-        "imagen": "../resources/Jeffrey.jpeg"
+        "imagen": "../img/Jeffrey.jpeg"
     },
     {
         "nombre": "Yeray",
         "descripcion": "El enigmático guerrero cuya armadura lleva las marcas del tiempo y los golpes recibidos, cada abolladura es un recuerdo de su resistencia y valentía. No es el típico caballero de brillante armadura; es más bien un lobo solitario que ha visto las sombras del mundo y ha aprendido a caminar entre ellas con sigilo y determinación.",
-        "imagen": "../resources/Yeray.png"
+        "imagen": "../img/Yeray.png"
     },
     {
         "nombre": "Pablo",
         "descripcion": "Solo soy un viejo con un pc.",
-        "imagen": "../resources/Pablo.webp"
+        "imagen": "../img/Pablo.webp"
     },
     {
         "nombre": "Nuria",
         "descripcion": "Entre el aroma del café recién hecho y las líneas de código, ahí está ella: una chica de 20 años con la energía de una playlist en modo aleatorio. Trabaja en una cafetería, donde cada mañana el olor a café la envuelve como un abrazo, y estudia desarrollo de aplicaciones web con la curiosidad de quien construye mundos digitales. Su debilidad son las chuches, sobre todo los regalices, y en su ranking de comidas favoritas reinan el sanjacobo y la tarta de queso. Cuando no está entre tazas y teclas, la encuentras cultivando sueños en Stardew Valley, compartiendo risas con sus amigos o paseando con su pareja. Ama la música en todas sus formas, y aunque no siempre tiene tiempo, disfruta del dibujo, la escritura y rasguear su guitarra o ukelele. Su hogar es un pequeño paraíso animal, con tres perros, una tortuga y un gato adoptado del amor. Pero su gran sueño es tener una vaca, porque sí, las vacas son su debilidad. Optimista y llena de energía, su brújula apunta a la ciberseguridad, donde espera proteger el mundo digital con la misma pasión con la que cuida a sus mascotas. No tiene carnet de conducir, pero ¿quién necesita coche cuando el camino se disfruta mejor con buena compañía, buena música y una bolsa de regalices en el bolsillo?",
-        "imagen": "../resources/Nuria.webp"
+        "imagen": "../img/Nuria.webp"
     }
 ]

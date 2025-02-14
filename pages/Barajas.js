@@ -1,4 +1,4 @@
-import Tarjetas from '../js/Tarjetas.js';
+import Tarjetas from '../components/Tarjetas.js';
 
 export default function Barajas() {
     return `

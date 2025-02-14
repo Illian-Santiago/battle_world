@@ -177,7 +177,7 @@ html {
 }
 
 .carta:hover {
-    background: url("../img/humo.gif") center / cover !important;
+    background: url("./img/humo.gif") center / cover !important;
     color: rgb(255, 255, 255);
 
     transform: perspective(90px) rotateY(180deg) scaleX(-1);
