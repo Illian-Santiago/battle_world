@@ -1,8 +1,10 @@
 <!doctype html>
-<html lang="es" data-bs-theme="auto">
+<html lang="es">
 
 <head>
-    <title>Title</title>
+    <title>Login</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=64&id=119076&format=png" type="image/x-icon">
+
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -13,20 +15,31 @@
 </head>
 
 <body>
-    <nav>
-        <p>Hola</p>
-    </nav>
-
     <header>
-
     </header>
 
-    <main>
+    <main class="container">
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Correo electronico:</label>
+                <input type="email" class="form-control" id="email" placeholder="user@example.com" name="email">
+            </div>
 
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Contraseña:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="***********" name="pswd">
+            </div>
+
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember">Recuérdame
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
     </main>
 
     <footer>
-
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->

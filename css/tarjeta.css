@@ -1,0 +1,45 @@
+.contenedor-cartas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carta {
+    min-width: 100px;
+    min-height: 200px;
+    width: 15vw;
+    height: 30vw;
+
+    font-size: 70%;
+
+    background: url("../resources/Illian.jpeg") center / cover;
+    margin: 2%;
+    position: relative;
+
+    border-radius: 25px;
+    color: transparent;
+    box-shadow: 5px 5px 30px rgb(148, 148, 148);
+
+    transition: 1s;
+}
+
+.carta h3 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.carta p {
+    margin: 10%;
+    text-align: justify;
+}
+
+.carta:hover {
+    background: url("../resources/icons8-fuego-unscreen.gif") center / cover;
+    color: red;
+
+    transform: perspective(90px) rotateY(180deg) scaleX(-1);
+    transition: 1.5s;
+
+    border: 2px, solid orangered;
+    box-shadow: 5px 5px 30px orange;
+}

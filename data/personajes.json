@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Illian",
+        "descripcion": "Un ninja letal, su dominio de la espada y otras artes lo hacen alguien temible como enemigo.",
+        "imagen": "../resources/Illian.jpeg"
+    },
+    {
+        "nombre": "Elvis",
+        "descripcion": "Conocido por su velocidad de mente y pies, junto a su tecnología poco común, hacen de Elvis un as bajo la manga.",
+        "imagen": "url_de_imagen_elvis"
+    }
+]
