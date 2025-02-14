@@ -38,5 +38,10 @@
         "nombre": "Pablo",
         "descripcion": "Solo soy un viejo con un pc.",
         "imagen": "../resources/Pablo.webp"
+    },
+    {
+        "nombre": "Nuria",
+        "descripcion": "Entre el aroma del café recién hecho y las líneas de código, ahí está ella: una chica de 20 años con la energía de una playlist en modo aleatorio. Trabaja en una cafetería, donde cada mañana el olor a café la envuelve como un abrazo, y estudia desarrollo de aplicaciones web con la curiosidad de quien construye mundos digitales. Su debilidad son las chuches, sobre todo los regalices, y en su ranking de comidas favoritas reinan el sanjacobo y la tarta de queso. Cuando no está entre tazas y teclas, la encuentras cultivando sueños en Stardew Valley, compartiendo risas con sus amigos o paseando con su pareja. Ama la música en todas sus formas, y aunque no siempre tiene tiempo, disfruta del dibujo, la escritura y rasguear su guitarra o ukelele. Su hogar es un pequeño paraíso animal, con tres perros, una tortuga y un gato adoptado del amor. Pero su gran sueño es tener una vaca, porque sí, las vacas son su debilidad. Optimista y llena de energía, su brújula apunta a la ciberseguridad, donde espera proteger el mundo digital con la misma pasión con la que cuida a sus mascotas. No tiene carnet de conducir, pero ¿quién necesita coche cuando el camino se disfruta mejor con buena compañía, buena música y una bolsa de regalices en el bolsillo?",
+        "imagen": "../resources/Nuria.webp"
     }
 ]

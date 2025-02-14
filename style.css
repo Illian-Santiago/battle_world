@@ -138,3 +138,51 @@ html {
 .cookie-consent button:hover {
     background-color: #45a049;
 }
+
+.contenedor-cartas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carta {
+    min-width: 100px;
+    min-height: 200px;
+    width: 15vw;
+    height: 30vw;
+
+    font-size: 90%;
+
+    margin: 2%;
+    position: relative;
+
+    border-radius: 25px;
+    color: transparent;
+    box-shadow: 5px 5px 30px rgb(148, 148, 148);
+
+    transition: 1s;
+    overflow: auto;
+
+    scrollbar-width: none;
+}
+
+.carta h3 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.carta p {
+    margin: 10%;
+    text-align: justify;
+}
+
+.carta:hover {
+    background: url("../img/humo.gif") center / cover !important;
+    color: rgb(255, 255, 255);
+
+    transform: perspective(90px) rotateY(180deg) scaleX(-1);
+    transition: 1.5s;
+
+    border: 2px, solid orangered;
+    box-shadow: 5px 5px 30px orange;
+}
